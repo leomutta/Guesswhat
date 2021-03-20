@@ -7,7 +7,7 @@ guessesTaken = 0
 print('Hello! What is your name asshole')
 myName = input()
 
-number = random.randint(1, 20)
+number = random.randint(1, 30)
 print('Well, ' + myName + ', I am thinking of a number between 1 and 20.')
 
 while guessesTaken < 6:
